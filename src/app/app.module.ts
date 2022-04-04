@@ -9,6 +9,8 @@ import { CreateComponent } from './components/create/create.component';
 import { CheckComponent } from './components/check/check.component';
 import { OverviewComponent } from './components/overview/overview.component';
 
+import { CheckviewComponent } from './components/checkview/checkview.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,9 @@ import { OverviewComponent } from './components/overview/overview.component';
     LoginComponent,
     CreateComponent,
     CheckComponent,
-    OverviewComponent
+    OverviewComponent,
+    
+    CheckviewComponent
   ],
   imports: [
     BrowserModule,
