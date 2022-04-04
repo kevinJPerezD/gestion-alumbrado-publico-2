@@ -10,6 +10,7 @@ import { CheckComponent } from './components/check/check.component';
 import { OverviewComponent } from './components/overview/overview.component';
 
 import { CheckviewComponent } from './components/checkview/checkview.component';
+import { ViewComponent } from './components/view/view.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +20,8 @@ import { CheckviewComponent } from './components/checkview/checkview.component';
     CreateComponent,
     CheckComponent,
     OverviewComponent,
-    
-    CheckviewComponent
+    CheckviewComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,

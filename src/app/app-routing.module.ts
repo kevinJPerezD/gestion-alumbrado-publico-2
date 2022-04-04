@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ViewChild } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
@@ -6,6 +6,7 @@ import { CreateComponent } from './components/create/create.component';
 import { CheckComponent } from './components/check/check.component';
 import { CheckviewComponent } from './components/checkview/checkview.component';
 import { OverviewComponent } from './components/overview/overview.component';
+import { ViewComponent } from './components/view/view.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'create', component: CreateComponent},
   {path: 'check', component: CheckComponent},
+  {path: 'view', component: ViewComponent},
   {path: 'checkview', component: CheckviewComponent}
 ];
 
