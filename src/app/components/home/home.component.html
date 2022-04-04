@@ -1,1 +1,184 @@
-<p>home works!</p>
+<div class="container-fluid">
+    <img routerLink="/create" src="assets/images/Mas.png" width="80px" style="border-radius: 1.5rem; position: fixed; bottom: 10px; right: 10px; z-index: 1;" />
+    <div class="row">
+        <div class="col-12 col-lg-8">
+            <iframe height="730px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3712.65839115537!2d-104.8489991!3d21.4819165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84273757a049b84f%3A0x322a881e7bd99ea3!2sCentro%20Nayarita%20de%20Innovaci%C3%B3n%20y%20Transferencia%20de%20Tecnolog%C3%ADa%20A.C.!5e0!3m2!1ses-419!2smx!4v1649019420385!5m2!1ses-419!2smx" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <div id="map"></div>
+            <input type="text" id="input_location" placeholder="Ingresa una localizacion"/>
+            <script src="map.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9KdWezODbtRZZ7K03axF9feFjAPi00K4&libraries=places&callback=iniciarMap"></script> -->
+        </div>
+
+        <div class="col-12 col-lg-4">
+            <div class="row mt-2 mb-2 justify-content-end">
+                <div class="col-4 align-self-end">
+                    <select class="form-select rounded-pill" aria-label="Default select example">
+                        <option selected>Relevantes</option>
+                        <option value="0">Mas reciente</option>
+                        <option value="1">Más cercas</option>
+                        <option value="2">Instalaciones pendientes</option>
+                        <option value="3">Mal estado</option>
+                        <option value="4">Reubicación</option>
+                      </select>
+                </div>
+            </div>
+            <div style="height: 680px; overflow-y: scroll;
+            scroll-behavior: smooth;">
+            <!-- 1 -->
+            <div class="card mb-3 shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2" style="border-radius: 1.5rem;" src="assets/images/foto1.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-4">
+                            <p class="mt-3 ms-3">Juan Pérez</p>
+                        </div>
+                        <div class="col-7">
+                            <p class="mt-3 text-end">Obstrucción de alumbrado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Lib. nogales a la altura de la calle jaiba, justo en el retorno</h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card mb-3 shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2"  style="border-radius: 1.5rem;" src="assets/images/foto2.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-4">
+                            <p class="mt-3 ms-3">Alfonso Garcia</p>
+                        </div>
+                        <div class="col-7">
+                            <p class="mt-3 text-end">Mal estado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Calle playa bucerias #102 col FOVISSTE 2da etapa. Entre chacala y novillero </h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card mb-3 shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2"  style="border-radius: 1.5rem;" src="assets/images/foto3.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-5">
+                            <p class="mt-3 ms-3">Kimberly Martínez</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="mt-3 text-end">Reubicación</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Col. 2 de agosto a media cuadra de las hamburguesas "EL compa el pollo" </h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="card shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2"  style="border-radius: 1.5rem;" src="assets/images/foto4.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-5">
+                            <p class="mt-3 ms-3">Johana Rodríguez</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="mt-3 text-end">Instalacion</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Calle tokio entre Oranto y Valparaíso, Colonia ciudad del valle. </h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            <!-- 1 -->
+            <div class="card mb-3 shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2" style="border-radius: 1.5rem;" src="assets/images/foto1.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-4">
+                            <p class="mt-3 ms-3">Juan Pérez</p>
+                        </div>
+                        <div class="col-7">
+                            <p class="mt-3 text-end">Obstrucción de alumbrado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Lib. nogales a la altura de la calle jaiba, justo en el retorno</h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card mb-3 shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2"  style="border-radius: 1.5rem;" src="assets/images/foto2.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-4">
+                            <p class="mt-3 ms-3">Alfonso Garcia</p>
+                        </div>
+                        <div class="col-7">
+                            <p class="mt-3 text-end">Mal estado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Calle playa bucerias #102 col FOVISSTE 2da etapa. Entre chacala y novillero </h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card mb-3 shadow" style="border-radius: 1.5rem;">
+                <div class="card-header bg-transparent border-bottom-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="mt-2"  style="border-radius: 1.5rem;" src="assets/images/foto3.jpg" alt="" width="50px">
+                        </div>
+                        <div class="col-5">
+                            <p class="mt-3 ms-3">Kimberly Martínez</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="mt-3 text-end">Reubicación</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body ">
+                    <h4 class="card-title">Col. 2 de agosto a media cuadra de las hamburguesas "EL compa el pollo" </h4>
+                </div>
+                <div class="card-footer text-muted bg-transparent border-top-0 d-flex justify-content-end">
+                    Ver mas...
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
