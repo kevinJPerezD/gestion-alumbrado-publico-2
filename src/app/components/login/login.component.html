@@ -1,29 +1,157 @@
 <div class="container">
-    <img class="mx-auto d-block mt-4 mb-4 rounded-pill shadow" src="assets/images/IconoFotografia.png" alt="" width="150px">
-    <div class="row justify-content-center">
-    <div class="col-12 col-sm-12 col-md-8 col-lg-6">
-    <form class="mt-4">
+  <img
+    class="mx-auto d-block my-4 rounded-pill shadow"
+    src="assets/images/IconoFotografia.png"
+    alt=""
+    width="150px"
+  />
+  <div class="row justify-content-center">
+    <div class="col-8 coo-md-8 col-lg-4 col-xl-4">
+      <form class="mt-4">
         <div class="mb-3">
-          <input type="text" class="form-control rounded-pill shadow" placeholder="Nombre">
+          <input
+            type="text"
+            class="form-control rounded-pill shadow"
+            placeholder="Nombre"
+          />
         </div>
         <div class="mb-3">
-          <input type="text" class="form-control rounded-pill shadow" placeholder="Número de Teléfono">
+          <input
+            type="text"
+            class="form-control rounded-pill shadow"
+            placeholder="Número de Teléfono"
+          />
         </div>
         <div class="mb-3 alig">
-            <a class="d-flex justify-content-end link-primary">Envia código</a>
+          <a class="d-flex justify-content-end link-primary">Envia código</a>
         </div>
         <div class="mb-3">
-          <label for="codigoDeAcceso" class="form-label">Código de Acceso</label>
-          <input type="text" class="form-control rounded-pill shadow" placeholder="Introduce el Código">
+          <label for="codigoDeAcceso" class="form-label"
+            >Código de Acceso</label
+          >
+          <input
+            type="text"
+            class="form-control rounded-pill shadow"
+            placeholder="Introduce el Código"
+          />
         </div>
         <div class="mb-3 form-check d-flex justify-content-center">
-          <input type="checkbox" class="form-check-input">
-          <label class="form-check-label ms-2" for="exampleCheck1">Acepto los <a class="link-primary" href="">Términos y condiciones</a></label>
+          <input type="checkbox" class="form-check-input" />
+          <label class="form-check-label ms-2" for="exampleCheck1"
+            >Acepto los
+            <a
+              class="link-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              >Términos y condiciones</a
+            ></label
+          >
         </div>
         <div class="d-flex justify-content-center">
-            <button routerLink="/home" type="submit" class="btn btn-primary mt-4 rounded-pill shadow">Registrarme</button>
+          <button
+            routerLink="/home"
+            type="submit"
+            class="btn btn-primary mt-4 rounded-pill shadow"
+          >
+            Registrarme
+          </button>
         </div>
       </form>
     </div>
+  </div>
+</div>
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Términos y condiciones
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <h6>I. OBJETO</h6>
+        <p>
+          El objeto es regular el acceso y utilización de la ubicacion en tiempo
+          real, poniendola a disposición del dominio
+          "https://www.iluminatec.com" con el objetivo de mostrar tanto al
+          publico en general como a las autoridades los reportes generados.
+          Además, se requerirá el número de celular solamente para validacion
+          del usuario. El titular se reserva el derecho de realizar cualquier
+          tipo de modificación en el sitio web en cualquier momento y sin previo
+          aviso, el usuario acepta dichas modificaciones. El acceso al sitio web
+          por parte del usuario es libre y gratuito. La administración del sitio web puede
+          ejercerse por terceros, es decir, personas distintas al titular, sin
+          afectar esto los presentes términos y condiciones.
+        </p>
+
+        <h6>II. USUARIO</h6>
+        <p>
+          La actividad del usuario en el sitio web como publicaciones o
+          comentarios estarán sujetos a los presentes términos y condiciones. El
+          usuario se compromete a utilizar el contenido, productos y/o servicios
+          de forma lícita, sin faltar a la moral o al orden público,
+          absteniéndose de realizar cualquier acto que afecte los derechos de
+          terceros o el funcionamiento del sitio web. El usuario se compromete a
+          proporcionar información verídica en los formularios del sitio web. El
+          acceso al sitio web no supone una relación entre el usuario y el
+          titular del sitio web. El usuario manifiesta ser mayor de edad y
+          contar con la capacidad jurídica de acatar los presentes términos y
+          condiciones.
+        </p>
+
+        <h6>III. ACCESO Y NAVEGACIÓN EN EL SITIO WEB</h6>
+        <p>
+          El titular no garantiza la continuidad y disponibilidad del contenido,
+          productos y/o servicios en el sitito web, realizará acciones que
+          fomenten el buen funcionamiento de dicho sitio web sin responsabilidad
+          alguna. El titular no se responsabiliza de que el software esté libre
+          de errores que puedan causar un daño al software y/o hardware del
+          equipo del cual el usuario accede al sitio web. De igual forma, no se
+          responsabiliza por los daños causados por el acceso y/o utilización
+          del sitio web.
+        </p>
+
+        <h6>V. POLÍTICA DE ENLACES</h6>
+        <p>
+          En el sitio web puede contener enlaces a otros sitios de internet
+          pertenecientes a terceros de los cuales no se hace responsable.
+        </p>
+
+        <h6>VI. POLÍTICA DE PROPIEDAD INTELECTUAL E INDUSTRIAL</h6>
+        <p>
+          El titular manifiesta tener los derechos de propiedad intelectual e
+          industrial del sitio web incluyendo imágenes, archivos de audio o
+          video, logotipos, marcas, colores, estructuras, tipografías, diseños y
+          demás elementos que lo distinguen, protegidos por la legislación
+          mexicana e internacional en materia de propiedad intelectual e
+          industrial. El usuario se compromete a respetar los derechos de
+          propiedad industrial e intelectual del titular pudiendo visualizar los
+          elementos del sitio web, almacenarlos, copiarlos e imprimirlos
+          exclusivamente para uso personal.
+        </p>
+
+        <h6>VII. LEGISLACIÓN Y JURISDICCIÓN APLICABLE</h6>
+        <p>
+          La relación entre el usuario y el titular se regirá por las
+          legislaciones aplicables en México. MilFormatos no se responsabiliza
+          por la indebida utilización del contenido, productos y/o servicios del
+          sitio web y del incumplimiento de los presentes términos y
+          condiciones.
+        </p>
+      </div>
     </div>
+  </div>
 </div>
